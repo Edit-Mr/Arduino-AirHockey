@@ -1,6 +1,8 @@
 # Air Hocky
+
 A Arduino UNO game
 
+![](image.png)
 ## Description
 
 Air Hocky is a game where two players play against each other. The game is played on a table with a puck, two mallets and a goal on each side. The goal of the game is to score points by hitting the puck into the opponent's goal. The player with the highest score at the end of the game wins.
@@ -13,6 +15,27 @@ This project is a school final project. We were forced to do this.
 * ST7735S LCD screen (0.96 inch 180x60 TFT)
 * dupont line x16
 * USB line (power supply / code transmission)
+
+## Installation
+
+Please install `Adafruit_ST7735.h` and `Adafruit_GFX.h` before compiling the code.
+
+## Circuit Diagram
+
+![Circuit Diagram](circuit_diagram.svg)
+
+> 1~8 is the pin number of my TFT display. You can change it to your own pin number. I use pin 6 as the power supply of the joystick. You can also change it to your own pin number, but you need to change the code. Using pin 12 may let the line looks better but my pin12 can't output 5V so I use pin 6.
+
+| PIN | SYMBOL |
+| --- | --- |
+| 1 | LEDA |
+| 2 | GND |
+| 3 | RESET |
+| 4 | CS |
+| 5 | SDA |
+| 6 | SCL |
+| 7 | VDD |
+| 8 | CS |
 
 ## How to play?
 
