@@ -1,4 +1,4 @@
-# Air Hocky
+# Air Hockey
 
 A Arduino UNO game
 
