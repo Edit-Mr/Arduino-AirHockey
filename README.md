@@ -1,6 +1,6 @@
 # Air Hockey
 
-A Arduino UNO game
+An Arduino UNO game
 
 ![](image.png)
 ## Description
@@ -10,11 +10,11 @@ Air Hocky is a game where two players play against each other. The game is playe
 This project is a school final project. We were forced to do this.
 
 ## Ingredients
-* Arduino Uno (R3, others board will also work)
+* Arduino Uno (R3, other boards will also work)
 * Joystick x2
 * ST7735S LCD screen (0.96 inch 180x60 TFT)
-* dupont line x16
-* USB line (power supply / code transmission)
+* DuPont line x16
+* USB line (power supply/code transmission)
 
 ## Installation
 
@@ -24,7 +24,7 @@ Please install `Adafruit_ST7735.h` and `Adafruit_GFX.h` before compiling the cod
 
 ![Circuit Diagram](circuit_diagram.svg)
 
-> 1~8 is the pin number of my TFT display. You can change it to your own pin number. I use pin 6 as the power supply of the joystick. You can also change it to your own pin number, but you need to change the code. Using pin 12 may let the line looks better but my pin12 can't output 5V so I use pin 6.
+> 1~8 is the pin number of my TFT display. You can change it to your own pin number. I use pin six as the power supply of the joystick. You can also change it to your own pin number, but you need to change the code. Using pin 12 may let the line looks better, but my pin 12 can't output 5V, so I use pin 6.
 
 | PIN | SYMBOL |
 | --- | --- |
@@ -39,7 +39,7 @@ Please install `Adafruit_ST7735.h` and `Adafruit_GFX.h` before compiling the cod
 
 ## How to play?
 
-When powered, the screen will display a opening animation. After the animation, the game will start when both of the joystick push foward (The screen will guide the direction). The game will end when a player scores 3 points. The screen will display the winner and the game will restart.
+When powered, the screen will display an opening animation. After the animation, the game will start when both of the joystick push foward (The screen will guide the direction). The game will end when a player scores 3 points. The screen will display the winner, and the game will restart.
 
 
 
